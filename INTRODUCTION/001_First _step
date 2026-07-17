@@ -1,0 +1,23 @@
+from string import printable
+
+
+class Person:#Template
+    ...
+
+
+person_a = Person() #Instance
+person_b=Person()#Another instance
+
+print(person_a)
+print(person_b)
+
+print(id(person_a))
+print(id(person_b))
+
+
+class Car:
+    ...
+
+
+car_1 = Car() #Instance of car class
+car_2 = Car()
